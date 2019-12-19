@@ -33,7 +33,6 @@
     <!-- ====================================================================== -->
     <artifactId>afn.all</artifactId>
     <packaging>content-package</packaging>
-    <version>1.0.0-SNAPSHOT</version>
 
     <name>Asian Foot Network All-in-One</name>
     <description>All-in-One package for Asian Foot Network</description>
@@ -47,8 +46,8 @@
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>filevault-package-maven-plugin</artifactId>
                 <configuration>
+					<allowIndexDefinitions>true</allowIndexDefinitions>
                     <filterSource>${project.basedir}/src/main/content/META-INF/vault/filter.xml</filterSource>
-
                     <dependencies>
                         <dependency>
                             <group>day/cq60/product</group>
@@ -90,6 +89,11 @@
                             <artifactId>core.wcm.components.all</artifactId>
                             <filter>true</filter>
                         </subPackage>
+                        <subPackage>
+			                <groupId>com.adobe.acs</groupId>
+			                <artifactId>acs-aem-commons-content</artifactId>
+			                <filter>true</filter>
+			            </subPackage>
                     </subPackages>
                 </configuration>
             </plugin>
@@ -119,6 +123,13 @@
                                 <configuration>
                                     <targetURL>${quickstart.url}/crx/packmgr/service.jsp</targetURL>
                                     <failOnError>true</failOnError>
+                                    <subPackages>
+							            <subPackage>
+							                <groupId>com.adobe.acs</groupId>
+							                <artifactId>acs-aem-commons-content</artifactId>
+							                <filter>true</filter>
+							            </subPackage>
+							        </subPackages>
                                 </configuration>
                             </execution>
                         </executions>
@@ -145,6 +156,13 @@
                                 <configuration>
                                     <targetURL>${quickstart.publish.url}/crx/packmgr/service.jsp</targetURL>
                                     <failOnError>true</failOnError>
+                                    <subPackages>
+							            <subPackage>
+							                <groupId>com.adobe.acs</groupId>
+							                <artifactId>acs-aem-commons-content</artifactId>
+							                <filter>true</filter>
+							            </subPackage>
+							        </subPackages>
                                 </configuration>
                             </execution>
                         </executions>
@@ -191,5 +209,11 @@
             <type>zip</type>
             <scope>provided</scope>
         </dependency>
+        
+        <dependency>
+			<groupId>com.adobe.acs</groupId>
+			<artifactId>acs-aem-commons-content</artifactId>
+			<type>content-package</type>
+		</dependency>
     </dependencies>
 </project>
