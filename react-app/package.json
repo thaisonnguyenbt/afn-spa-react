@@ -24,10 +24,9 @@
     ]
   },
   "dependencies": {
-    "@adobe/cq-react-editable-components": "~1.1.0",
-    "@adobe/cq-spa-component-mapping": "~1.0.3",
-    "@adobe/cq-spa-page-model-manager": "~1.0.7",
-    "clone": "^2.1.2",
+    "@adobe/cq-react-editable-components": "^1.1.0",
+    "@adobe/cq-spa-component-mapping": "^1.0.3",
+    "@adobe/cq-spa-page-model-manager": "^1.0.7",
     "custom-event-polyfill": "^1.0.7",
     "dompurify": "^2.0.7",
     "history": "^4.7.2",
@@ -42,13 +41,15 @@
   "devDependencies": {
     "aem-clientlib-generator": "^1.5.0",
     "aemsync": "^3.0.2",
+    "ajv": "^6.10.2",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "clone": "^2.1.2",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "node-fetch": "^2.6.0",
     "sinon": "^7.3.2",
-    "typescript": "^3.5.3"
+    "typescript": "^3.7.3"
   },
   "browserslist": [
     "defaults"

@@ -24,7 +24,7 @@ import sinon from "sinon";
 describe("Page ->", () => {
 
     const ROOT_NODE_CLASS_NAME = 'route-node';
-    const PAGE_CLASS_NAME = 'page';
+    const PAGE_CLASS_NAME = 'AfnPage';
 
     let rootNode;
 

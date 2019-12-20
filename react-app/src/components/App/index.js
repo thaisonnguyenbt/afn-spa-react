@@ -14,7 +14,7 @@
  ~ limitations under the License.
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 import React from 'react';
-import { Page, withModel } from '@adobe/cq-react-editable-components';
+import { Page, withModel, EditorContext, Utils } from '@adobe/cq-react-editable-components';
 
 require('./App.css');
 
@@ -22,10 +22,14 @@ require('./App.css');
 class App extends Page {
     render() {
         return (
-            <div>
-            { this.childComponents }
-            { this.childPages }
+            <div className="App">
+                <header className="App-header">
+                    <h1>Welcome to AEM + React</h1>
+                </header>
+                    { this.childComponents }
+                    { this.childPages }
             </div>
+
         )
     }
 }

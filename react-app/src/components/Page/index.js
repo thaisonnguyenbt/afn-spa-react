@@ -20,13 +20,13 @@ require('./Page.css');
 
 // This component is a variant of a Page component mapped to the "afn/components/page" resource type
 // For now, the rendering is the same as the RootPage; this is more for illustration purposes
-class AppPage extends Page {
+class AfnPage extends Page {
 
     get containerProps() {
         let attrs = super.containerProps;
-        attrs.className = (attrs.className || '') + ' page ' + (this.props.cssClassNames || '');
+        attrs.className = (attrs.className || '') + ' AfnPage ' + (this.props.cssClassNames || '');
         return attrs
     }
 }
 
-export default MapTo('afn/components/page')(withComponentMappingContext(withRoute(AppPage)));
+export default MapTo('afn/components/structure/page')(withComponentMappingContext(withRoute(AfnPage)));
