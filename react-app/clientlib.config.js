@@ -48,7 +48,7 @@ module.exports = {
     allowProxy: true,
     categories: ['afn-react'],
     embed: ['afn.responsivegrid'],
-    jsProcessor: ['default:none', 'min:none'],
+    jsProcessor: ['default:none', 'min:none', "min:gcc"],
     serializationFormat: 'xml',
     assets: {
       // Copy entrypoint scripts and stylesheets into the respective ClientLib directories (in the order they are in the

@@ -8,7 +8,7 @@
         cq:template="/conf/afn/settings/wcm/templates/app-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Root Page Asian Foot Network App"
-        sling:resourceType="afn/components/app"
+        sling:resourceType="afn/components/structure/app"
         cq:redirectTarget="/content/afn/en/home">
         <root
             jcr:primaryType="nt:unstructured"

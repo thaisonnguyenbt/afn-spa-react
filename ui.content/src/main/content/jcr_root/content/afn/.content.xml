@@ -6,7 +6,7 @@
         jcr:primaryType="cq:PageContent"
         cq:conf="/conf/afn"
         jcr:title="Asian Foot Network"
-        sling:resourceType="afn/components/app"
+        sling:resourceType="afn/components/structure/app"
         cq:redirectTarget="/content/afn/en">
     </jcr:content>
     <en/>
