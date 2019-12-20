@@ -1,0 +1,41 @@
+[{
+		"title": "Lorem anim labore eiusmod laborum",
+		"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-03.jpg",
+		"alt": "mollit deserunt tempor veniam cillum",
+		"url": "https://www.google.com",
+		"configid": "afn_ratings_reviews_default_configuration",
+		"streamid": "L2NvbnRlbnQvYWZuL2dsb2JhbC9lbi9yZWNpcGVzL2N1aXNpbmUva29yZWFuL2tpbWNoaS1mcmllZC1yaWNlLmh0bWw="
+	},
+	{
+		"title": "eiusmod et id deserunt minim",
+		"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-05.jpg",
+		"alt": "eiusmod incididunt elit laborum pariatur",
+		"url": "https://www.google.com",
+		"configid": "afn_ratings_reviews_default_configuration",
+		"streamid": "L2NvbnRlbnQvYWZuL2dsb2JhbC9lbi9hcnRpY2xlcy9vY2Nhc3Npb24vbWlkLWF1dHVtbi1mZXN0aXZhbC9ib2JhLS1rZXRvLWFuZC1tb3JlLWJvbGQtbW9vbmNha2VzLW9mLTIwMTkuaHRtbA=="
+	},
+	{
+		"title": "duis occaecat ut aliqua amet",
+		"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-01.jpg",
+		"alt": "eu laborum ea quis occaecat",
+		"url": "https://www.google.com",
+		"configid": "afn_ratings_reviews_default_configuration",
+		"streamid": "L2NvbnRlbnQvYWZuL2dsb2JhbC9lbi9hcnRpY2xlcy9jb3VudHJ5L21hbGF5c2lhL2xhdGUtbmlnaHQtZ3VpZGUta3VjaGluZy5odG1s"
+	},
+	{
+		"title": "anim ex cupidatat aliqua id",
+		"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-02.jpg",
+		"alt": "aliquip quis nostrud sunt dolore",
+		"url": "https://www.google.com",
+		"configid": "afn_ratings_reviews_default_configuration",
+		"streamid": "L2NvbnRlbnQvYWZuL2dsb2JhbC9lbi9yZWNpcGVzL2N1aXNpbmUva29yZWFuL2tvcmVhbi1mcmllZC1jaGlja2VuLmh0bWw="
+	},
+	{
+		"title": "eiusmod aute commodo minim duis",
+		"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-04.jpg",
+		"alt": "tempor pariatur irure labore nulla",
+		"url": "https://www.google.com",
+		"configid": "afn_ratings_reviews_default_configuration",
+		"streamid": "L2NvbnRlbnQvYWZuL2dsb2JhbC9lbi9yZWNpcGVzL2N1aXNpbmUva29yZWFuL2tpbWNoaS1mcmllZC1yaWNlLmh0bWw="
+	}
+]

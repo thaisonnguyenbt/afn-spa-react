@@ -1,0 +1,46 @@
+{
+	"results": [{
+			"title": "aliquip incididunt pariatur eiusmod in",
+			"description": "anim sit labore culpa commodo velit excepteur irure exercitation aute laborum velit aliquip ad quis veniam qui reprehenderit reprehenderit reprehenderit velit quis nostrud Lorem et occaecat ullamco cupidatat anim nisi",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-05.jpg",
+			"alt": "do veniam elit do velit",
+			"url": "https://www.google.com",
+			"categoryTitle": "Optimizing Daily Routine",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "/content/afn/global/en/recipe/cuisine/kueh-salat.html"
+		},
+		{
+			"title": "labore aliquip quis sint esse",
+			"description": "consectetur reprehenderit enim dolore quis deserunt nulla exercitation incididunt excepteur velit irure incididunt incididunt reprehenderit ad velit Lorem excepteur officia deserunt proident sit laboris duis est quis aliquip duis pariatur",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-05.jpg",
+			"alt": "amet id consequat consectetur anim",
+			"url": "https://www.google.com",
+			"categoryTitle": "Cooking Skills",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "recipe-review-stream"
+		},
+		{
+			"title": "anim id commodo id aute",
+			"description": "ipsum ad enim sint eiusmod minim amet nulla sit eiusmod sit officia culpa proident ad duis dolore eiusmod ex ullamco id sunt qui et voluptate ea eiusmod nostrud aute duis",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-02.jpg",
+			"alt": "est minim dolore occaecat enim",
+			"url": "https://www.google.com",
+			"categoryTitle": "Time-bound",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "recipe-review-stream"
+		},
+		{
+			"title": "voluptate proident deserunt aliqua laboris",
+			"description": "amet quis elit officia ut esse ea mollit fugiat laboris ea est cupidatat proident ullamco proident et reprehenderit deserunt et culpa fugiat adipisicing ea dolore voluptate incididunt ex adipisicing sunt",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-05.jpg",
+			"alt": "dolor duis cillum sunt deserunt",
+			"url": "https://www.google.com",
+			"categoryTitle": "Cooking Skills",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "article-review-stream"
+		}
+	],
+	"currentPage": 3,
+	"totalPages": 3,
+	"statusCode": 200
+}

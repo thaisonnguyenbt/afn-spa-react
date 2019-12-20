@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "lastUpdated": 1569982117517,
+      "UID": "ee7bc729fef74b63a4d6372ac0383adf",
+      "data": {
+        "thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-01.jpg",
+        "author": "Asian Food Network 1",
+        "category": "recipe",
+        "subcategory": "default",
+        "title": "Recipe Title 1",
+        "url": "http://localhost:9000/recipe-detail.html"
+      },
+      "created": 1569982117517,
+      "createdTime": "2019-10-02T02:08:37.517Z",
+      "lastUpdatedTime": "2019-10-02T02:08:37.517Z",
+      "oid": "535c4e1dba2144e8884ab9238ccb3c7b"
+    }
+  ],
+  "objectsCount": 1,
+  "totalCount": 28,
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "7371d982830742dcb5bfafad0bdc9d4c",
+  "time": "2019-10-02T07:50:25.734Z"
+}

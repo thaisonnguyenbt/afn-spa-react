@@ -1,0 +1,10 @@
+
+{
+  "bookmark" : {
+    "author"        : "author 2",
+    "category"      : "recipe",
+    "thumbnail"     : "clientlib-site/resources/images/carousel/carousel-mobile-02.jpg",
+    "title"         : "title 2",
+    "url"           : "http://localhost:9000/recipe-detail.html"
+  }
+}

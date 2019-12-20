@@ -1,0 +1,18 @@
+{# <select class="chosen" style="width:200px;">
+	<option value="date" selected="selected">New to Old</option>
+	<option value="az">A-Z</option>
+	<option value="za">Z-A</option>
+</select> #}
+<div class="m-sorting-dropdown-container">
+	<div class="m-sorting-dropdown__label">
+		<span>Sort By</span>
+	</diV>
+	<v-select
+		class="m-sorting-dropdown__list"
+		select-click="bookmark-sorting"
+		:searchable=false
+		:clearable=false
+		placeholder="New to Old"
+		:options="[{label: 'New to Old', code: 'date'}, {label: 'A to Z', code: 'az'}, {label: 'Z to A', code: 'za'}]">
+	</v-select>
+</div>

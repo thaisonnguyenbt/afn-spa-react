@@ -1,0 +1,106 @@
+{
+	"results": [{
+			"title": "anim laborum pariatur ea aliqua",
+			"description": "non ipsum mollit sit nisi eiusmod id voluptate aute voluptate cupidatat occaecat et amet occaecat nisi est eu sit eiusmod excepteur magna excepteur voluptate ut in dolor mollit commodo commodo",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-04.jpg",
+			"alt": "id reprehenderit non proident quis",
+			"url": "https://www.google.com",
+			"categoryTitle": "Time-bound",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "/content/afn/global/en/recipe/cuisine/kueh-salat.html"
+		},
+		{
+			"title": "fugiat adipisicing id incididunt eiusmod",
+			"description": "mollit velit non qui id laboris velit commodo occaecat duis dolore consectetur exercitation ullamco proident commodo do veniam in in ex consectetur sunt cupidatat tempor exercitation anim esse magna veniam",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-01.jpg",
+			"alt": "aliqua pariatur laboris dolor reprehenderit",
+			"url": "https://www.google.com",
+			"categoryTitle": "Dietary",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "article-review-stream"
+		},
+		{
+			"title": "non labore qui eu nulla",
+			"description": "officia enim cillum veniam amet dolor ullamco sunt pariatur ipsum voluptate amet dolore non quis esse nisi pariatur aliqua aliquip amet Lorem incididunt veniam occaecat sint sint culpa est cupidatat",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-02.jpg",
+			"alt": "eu amet in enim ea",
+			"url": "https://www.google.com",
+			"categoryTitle": "Nutrition",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "/content/afn/global/en/recipe/cuisine/kueh-salat.html"
+		},
+		{
+			"title": "ex ad elit ut est",
+			"description": "sint aliquip veniam aliquip non aliqua occaecat veniam quis pariatur voluptate officia consectetur et dolore tempor ex culpa pariatur ad do dolor mollit occaecat est sint cupidatat magna dolore et",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-05.jpg",
+			"alt": "aliqua duis tempor ut do",
+			"url": "https://www.google.com",
+			"categoryTitle": "Nutrition",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "article-review-stream"
+		},
+		{
+			"title": "ipsum culpa excepteur sint ipsum",
+			"description": "aliquip velit id Lorem nisi aliquip dolore occaecat qui quis eu nulla sint sunt aliqua aliquip dolor incididunt dolor irure dolor veniam ipsum anim aute tempor aliqua labore minim tempor",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-01.jpg",
+			"alt": "eu officia enim qui consequat",
+			"url": "https://www.google.com",
+			"categoryTitle": "Cooking Skills",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "/content/afn/global/en/recipe/cuisine/kueh-salat.html"
+		},
+		{
+			"title": "eu adipisicing est fugiat laborum",
+			"description": "eiusmod cupidatat consequat nisi est ipsum aliquip deserunt veniam excepteur anim adipisicing reprehenderit sit eiusmod Lorem et Lorem exercitation dolore et eu Lorem exercitation laboris ut sunt velit nisi est",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-01.jpg",
+			"alt": "aliqua ullamco exercitation ut amet",
+			"url": "https://www.google.com",
+			"categoryTitle": "Dietary",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "article-review-stream"
+		},
+		{
+			"title": "anim ipsum magna amet et",
+			"description": "esse aute cillum cupidatat anim anim voluptate officia amet elit labore dolore proident eiusmod aliqua enim dolore consectetur esse adipisicing culpa nostrud cupidatat velit elit veniam elit cupidatat ut tempor",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-02.jpg",
+			"alt": "velit ex enim adipisicing veniam",
+			"url": "https://www.google.com",
+			"categoryTitle": "Dining Experience",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "article-review-stream"
+		},
+		{
+			"title": "officia elit deserunt fugiat nostrud",
+			"description": "ullamco cillum irure officia nisi deserunt consectetur anim Lorem et labore labore eu enim Lorem ipsum ipsum ex ut magna aliqua ipsum esse dolore occaecat dolore eiusmod anim in commodo",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-01.jpg",
+			"alt": "culpa incididunt deserunt deserunt laborum",
+			"url": "https://www.google.com",
+			"categoryTitle": "Cooking Skills",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "/content/afn/global/en/recipe/cuisine/kueh-salat.html"
+		},
+		{
+			"title": "ea velit tempor aliquip irure",
+			"description": "dolor id commodo nulla proident tempor do sint deserunt proident sint proident exercitation tempor enim consectetur laboris dolor cupidatat officia mollit duis aute laborum minim et dolore nostrud anim ex",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-02.jpg",
+			"alt": "ad sunt magna ipsum pariatur",
+			"url": "https://www.google.com",
+			"categoryTitle": "Foolproof for Beginners",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "recipe-review-stream"
+		},
+		{
+			"title": "aliquip laborum ex adipisicing veniam",
+			"description": "ex sunt velit deserunt est labore minim ad aute proident nulla ad deserunt enim anim do irure ex excepteur aute Lorem incididunt in velit id et anim amet in aute",
+			"thumbnail": "clientlib-site/resources/images/carousel/carousel-mobile-01.jpg",
+			"alt": "in aliqua veniam labore ipsum",
+			"url": "https://www.google.com",
+			"categoryTitle": "Asian Delicacies",
+			"ratingconfig": "afn_ratings_reviews_default_configuration",
+			"streamid": "/content/afn/global/en/recipe/cuisine/kueh-salat.html"
+		}
+	],
+	"currentPage": 2,
+	"totalPages": 3,
+	"statusCode": 200
+}
