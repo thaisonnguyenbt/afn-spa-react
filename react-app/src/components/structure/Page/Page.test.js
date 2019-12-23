@@ -15,7 +15,7 @@
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 import React from "react";
 import ReactDOM from "react-dom";
-import Page from "./";
+import Page from ".";
 
 import {ModelManager} from "@adobe/cq-spa-page-model-manager";
 import sinon from "sinon";

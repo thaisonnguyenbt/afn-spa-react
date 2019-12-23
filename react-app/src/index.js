@@ -25,7 +25,7 @@ import { createBrowserHistory } from 'history';
 import React from 'react';
 import { render } from 'react-dom';
 import { Router } from 'react-router-dom';
-import App from './components/App';
+import App from './components/structure/App';
 import './components/import-components';
 
 document.addEventListener('DOMContentLoaded', () => {

@@ -14,7 +14,7 @@
  ~ limitations under the License.
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 import {Page, MapTo, withComponentMappingContext } from "@adobe/cq-react-editable-components";
-import {withRoute} from '../RouteHelper';
+import {withRoute} from '../../RouteHelper';
 
 require('./Page.css');
 

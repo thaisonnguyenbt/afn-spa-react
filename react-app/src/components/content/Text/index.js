@@ -16,7 +16,7 @@
 import React, {Component} from 'react';
 import {MapTo} from '@adobe/cq-react-editable-components';
 import DOMPurify from 'dompurify';
-import extractModelId from '../../utils/extract-model-id';
+import extractModelId from '../../../utils/extract-model-id';
 
 require('./Text.css');
 
@@ -52,4 +52,4 @@ class Text extends Component {
     }
 }
 
-export default MapTo('afn/components/text')(Text, TextEditConfig);
+export default MapTo('afn/components/content/text')(Text, TextEditConfig);

@@ -19,7 +19,7 @@ import Text from "./";
 
 import {ModelManager} from "@adobe/cq-spa-page-model-manager";
 import sinon from "sinon";
-import extractModelId from "../../utils/extract-model-id";
+import extractModelId from "../../../utils/extract-model-id";
 
 
 describe("Text ->", () => {

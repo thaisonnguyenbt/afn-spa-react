@@ -14,5 +14,5 @@
  ~ limitations under the License.
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-import './Page';
-import './Text';
+import './structure/Page';
+import './content/Text';
