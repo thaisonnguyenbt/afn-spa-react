@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
           locationPathname={window.location.pathname}
         />
       </Router>,
-      document.getElementById('root')
+      document.getElementById('page')
     );
   });
 });

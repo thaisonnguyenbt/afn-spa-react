@@ -16,3 +16,4 @@
 
 import './structure/Page';
 import './content/Text';
+import './content/Image';

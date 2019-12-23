@@ -33,4 +33,4 @@ class Image extends Component {
     }
 }
  
-export default MapTo('wknd-events/components/content/image')(Image, ImageEditConfig);
+export default MapTo('afn/components/content/image')(Image, ImageEditConfig);
