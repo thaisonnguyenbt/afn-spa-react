@@ -15,5 +15,8 @@
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 import './structure/Page';
+import './structure/App';
+import './structure/Header';
+
 import './content/Text';
 import './content/Image';
