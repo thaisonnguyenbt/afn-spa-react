@@ -46,6 +46,26 @@
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </default>
+                    <afn-structure
+                        jcr:description="AFN-Structure"
+                        jcr:lastModified="{Date}2019-12-24T12:58:43.713+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="AFN-Structure"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/dam/cfm/components/contentfragment,/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/wcm/foundation/components/responsivegrid,group:AFN.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </afn-structure>
+                    <afn-content
+                        jcr:description="AFN.Content"
+                        jcr:lastModified="{Date}2019-12-24T13:02:39.201+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="AFN.Content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="group:AFN.Content">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </afn-content>
                 </responsivegrid>
             </components>
         </foundation>

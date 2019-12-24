@@ -3,12 +3,25 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2019-12-24T13:05:58.896+08:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/afn/settings/wcm/templates/asian-food-network-empty-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="afn/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2019-12-24T13:02:00.997+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-12-24T13:02:00.997+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid>
+        </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
                 <phone
