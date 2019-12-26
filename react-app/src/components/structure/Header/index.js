@@ -14,7 +14,7 @@
  
      render() {
          return (
-            <header class="o-header">
+            <header className="o-header">
                 AFN Header {this.props.logoImgPath}
             </header>
          )

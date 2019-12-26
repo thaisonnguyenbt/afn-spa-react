@@ -32,7 +32,6 @@
     <!-- ====================================================================== -->
     <artifactId>afn.core</artifactId>
     <name>Asian Foot Network Core</name>
-    <version>1.0.0-SNAPSHOT</version>
     <description>Asian Foot Network Core Bundle</description>
     <packaging>bundle</packaging>
 
@@ -57,7 +56,7 @@
                     <exportScr>true</exportScr>
                     <instructions>
                         <!-- The Sling-Model-Packages instruction needs to point to the implementation package -->
-                        <Sling-Model-Packages>com.discovery.sea.afn.internal.models</Sling-Model-Packages>
+                        <Sling-Model-Packages>com.discovery.sea.afn.models</Sling-Model-Packages>
                         <!-- Enable processing of OSGI DS component annotations -->
                         <_dsannotations>*</_dsannotations>
                         <!-- Enable processing of OSGI metatype annotations -->
@@ -269,7 +268,6 @@
         <dependency>
             <groupId>org.apache.sling</groupId>
             <artifactId>org.apache.sling.servlet-helpers</artifactId>
-            <version>1.1.2</version>
             <scope>test</scope>
         </dependency>
         <!-- for testing we need the new ResourceTypeBasedResourcePicker -->
@@ -294,7 +292,6 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -306,7 +303,6 @@
                     <artifactId>org.apache.sling.models.impl</artifactId>
                 </exclusion>
             </exclusions>
-            <version>2.2.12</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -319,31 +315,26 @@
                     <artifactId>org.apache.sling.models.api</artifactId>
                 </exclusion>
             </exclusions>
-            <version>2.2.16</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>1.10.19</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.powermock</groupId>
             <artifactId>powermock-module-junit4</artifactId>
-            <version>1.7.3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.powermock</groupId>
             <artifactId>powermock-api-mockito</artifactId>
-            <version>1.7.3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.powermock</groupId>
             <artifactId>powermock-core</artifactId>
-            <version>1.7.3</version>
             <scope>test</scope>
         </dependency>
         <dependency>

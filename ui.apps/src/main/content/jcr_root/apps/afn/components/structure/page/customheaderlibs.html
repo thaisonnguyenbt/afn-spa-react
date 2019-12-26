@@ -8,4 +8,10 @@ Custom Headerlibs for React Site
 <meta property="cq:pagemodel_root_url" data-sly-use.page="com.adobe.aem.spa.project.core.models.Page" content="${page.hierarchyRootJsonExportUrl}" />
 <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
   <sly data-sly-call="${clientlib.css @ categories='afn-react'}" ></sly>
+  <sly data-sly-call="${clientlib.css @ categories='afn.base'}" ></sly>
 </sly>
+
+<!--/* Fontawesome temporary loading for testing purposes before real icons come in */-->
+<link rel="preload" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"></noscript>
+<!--/* Fontawesome temporary loading for testing purposes before real icons come in END */-->

@@ -10,6 +10,8 @@ import java.util.regex.Pattern;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.inject.Inject;
+import javax.jcr.Node;
+
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -194,14 +196,31 @@ public class HierarchyPageImpl implements HierarchyPage {
                                              @Nonnull Class<T> modelClass) {
         Map<String, T> itemWrappers = new LinkedHashMap<>();
 
-        Iterable<Resource> iterable = slingModelFilter.filterChildResources(request.getResource().getChildren());
+        Resource resource = request.getResource();
+        
+        Iterable<Resource> children = resource.getChildren();
+		Iterable<Resource> iterable = slingModelFilter.filterChildResources(children);
 
-        if (iterable == null) {
+        if (children == null) {
             return itemWrappers;
         }
 
         for (final Resource child : iterable) {
-            itemWrappers.put(child.getName(), modelFactory.getModelFromWrappedRequest(slingRequest, child, modelClass));
+            if (modelFactory.isModelAvailableForResource(child)) {
+                Object modelObj = modelFactory.getModelFromResource(child);
+                if (modelClass.isAssignableFrom(modelObj.getClass())) {
+                    @SuppressWarnings("unchecked")
+                    T model = (T) modelObj;
+                    if (model != null) {
+                        itemWrappers.put(child.getName(), model);
+                    }
+                }
+            } else {
+                T modelFromWrappedRequest = modelFactory.getModelFromWrappedRequest(slingRequest, child, modelClass);
+                if (modelFromWrappedRequest != null) {
+                    itemWrappers.put(child.getName(), modelFromWrappedRequest);
+                }
+            }
         }
 
         return  itemWrappers;
