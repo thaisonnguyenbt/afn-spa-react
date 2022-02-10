@@ -30,7 +30,7 @@
     "custom-event-polyfill": "^1.0.7",
     "dompurify": "^2.0.7",
     "history": "^4.7.2",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "react": "^16.6.3",
     "react-app-polyfill": "^1.0.4",
     "react-dom": "^16.6.3",
